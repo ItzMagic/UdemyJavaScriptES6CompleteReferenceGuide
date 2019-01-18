@@ -26,3 +26,14 @@ Output: in console.log()
 //So, in this case your output will be:
 "You saved 60% on this sale
 */
+
+
+
+
+const originalPrice = 25;
+const newPrice = 10;
+let difference = originalPrice - newPrice;
+let saved = ((difference / (originalPrice + newPrice / 2)) * 100) 
+
+console.log(`You saved ${saved}% on this sale`)
+
